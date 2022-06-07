@@ -37,7 +37,8 @@ const App = () => (
   >
     {(permissions) => [
       <Resource
-        name="master-users"
+        name="streetlight/get-streetlight
+"
         {...services}
         options={{ label: "Services" }}
       />,
