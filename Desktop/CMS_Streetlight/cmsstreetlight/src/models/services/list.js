@@ -74,18 +74,22 @@ const ListView = ({ selectedRow, ...props }) => {
           label="Load-Current"
         />
         <TextField source="Load_Power" sortable={false} label="Load-Power" />
-        <TextField source="c_flag" sortable={false} label="Charging-flag" />
-        <TextField source="b_flag" sortable={false} label="BatteryLow-Flag" />
         <TextField
-          source="sys_fault_flag"
+          source="Solar_Charging"
+          sortable={false}
+          label="Charging-flag"
+        />
+        <TextField
+          source="Battery_Low"
+          sortable={false}
+          label="BatteryLow-Flag"
+        />
+        <TextField
+          source="System_Fault"
           sortable={false}
           label="System-Fault-flag"
         />
-        <TextField
-          source="overload_flag"
-          sortable={false}
-          label="Overload-flag"
-        />
+        <TextField source="Overload" sortable={false} label="Overload-flag" />
         <TextField source="date" sortable={false} label="Date " />
         <TextField source="time" sortable={false} label="Time" />
       </Datagrid>
