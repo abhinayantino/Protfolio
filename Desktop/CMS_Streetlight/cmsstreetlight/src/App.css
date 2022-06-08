@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+/* .MuiMenuItem-root{
+  display:none !important;
+} */
+.MuiTableCell-root{
+  border-right: 2px solid #dee2e6;
+}
+.MuiTableRow-root{
+  border-bottom:2px solid #dee2e6;
+}
+.MuiIconButton-root{
+  display: none !important;
+}
+.MuiSvgIcon-root{
+  display: none !important;
+}
+.span{
+  padding:2rem !important;
+}
+.MuiTypography-root{
+  padding-left: 1rem;
+}
+
+.RaList-content{
+  margin-right: 35px !important;
+}
+.MuiToolbar-regular{
+  margin-right: 25px !important;
+}

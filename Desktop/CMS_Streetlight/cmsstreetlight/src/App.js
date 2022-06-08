@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./App.css";
 import { Admin, Resource } from "react-admin";
 
 import services from "./models/services/index";
@@ -35,14 +36,11 @@ const App = () => (
     // theme={myTheme}
     dataProvider={dataProvider}
   >
-    {(permissions) => [
-      <Resource
-        name="streetlight/get-streetlight
-"
-        {...services}
-        options={{ label: "Services" }}
-      />,
-    ]}
+    <Resource
+      name="get-streetlight"
+      {...services}
+      options={{ label: "Streetlight CMS-IOT Data", style: "padding:2rem" }}
+    />
   </Admin>
 );
 
