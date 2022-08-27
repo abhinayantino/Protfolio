@@ -1,0 +1,278 @@
+.wrapper{
+    display: contents;
+}
+.container {
+    float: right;
+    height: 25px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menulogo {
+    height: 3px;
+    width: 30px;
+    background-color: #f26440;
+}
+
+#navbar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menu {
+    background-color: #EDBF48;
+    width: 44%;
+    height: 610px;
+    transform: translateX(-500px);
+    transition: 0.5s;
+}
+
+.showmenu{
+    transform: translateX(0);
+}
+
+.menu li {
+    border-bottom: 1px solid rgb(130, 117, 218);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.menu li:last-child{
+    border-bottom: none;
+}
+
+#navbar ul li a {
+    margin: 0px -3px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.top {
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#HOME {
+    height: 545px;
+    padding: 40px 0px 0px 0px;
+}
+
+#HOME .intro p {
+    font-size: 1.7rem;
+}
+
+
+#HOME .about {
+    margin: 10px 0px;
+}
+
+#HOME .about p {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+
+.About h1 {
+    font-size: 1.7rem;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #728394;
+}
+
+.font-italic {
+    font-style: italic !important;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+    font-size: 1.25rem !important;
+}
+
+.profile-shivam {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.profile-shivam ul li {
+    /* padding-bottom: 15px; */
+    font-size: 1.2rem;
+}
+
+.right-profile {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 1rem;
+    padding-left: 5px;
+    margin-right: none;
+    padding: none;
+
+}
+
+.img img {
+    height: 370px;
+    position: relative;
+    top: 65px;
+}
+
+.bg img {
+    height: 343px;
+    position: relative;
+    top: 330px;
+}
+
+.down {
+    bottom: 480px;
+}
+
+#SERVICE {
+    height: 415px;
+}
+
+#SERVICE .aid .right {
+    width: 94vw;
+}
+
+#SERVICE .aid .right h1 {
+    font-size: 1.7rem;
+}
+
+#SERVICE .aid .right p {
+    line-height: 25px;
+}
+
+#SERVICE .aid .right .procl {
+    margin: 20px 0px;
+}
+
+#SERVICE .aid .right .procl h1 {
+    font-size: 1.7rem;
+}
+
+#SERVICE .aid .left {
+    width: 100%;
+}
+
+#EXPERIENCE {
+    height: 398px;
+}
+
+#EXPERIENCE h1 {
+    font-size: 1.7rem;
+}
+
+#EXPERIENCE .copr {
+    margin: 20px 0px;
+}
+
+#EXPERIENCE .copr h4 {
+    font-size: 1.3rem;
+}
+
+#EXPERIENCE .copr p {
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+
+#SKILL {
+    height: 423px;
+}
+
+#SKILL h1 {
+    font-size: 1.7rem;
+}
+
+#SKILL .mega .mini {
+    background-color: #ffff;
+}
+
+#SKILL .mega .mini h4 {
+    font-size: 1.3rem;
+}
+
+#SKILL .mega .mini ul li p {
+    font-size: 1.1rem;
+}
+
+#PROJECT {
+    height: 406px;
+}
+
+#PROJECT h1 {
+    font-size: 1.7rem;
+}
+
+#PROJECT .big .small {
+    height: 340px;
+    margin: 0;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8f7f1
+}
+
+#PROJECT .big .small img {
+    height: 152px;
+}
+
+#PROJECT .big .small h4 {
+    font-size: 1.3rem;
+}
+
+#PROJECT .big .small p {
+    font-size: 1.1rem;
+}
+
+#EDUCATION {
+    height: 423px;
+}
+
+#EDUCATION h1 {
+    font-size: 1.7rem;
+}
+
+#EDUCATION .mega .mini {
+    background-color: #ffff;
+}
+
+#EDUCATION .mega .mini h4 {
+    font-size: 1.3rem;
+}
+
+#EDUCATION .mega .mini ul li p {
+    font-size: 1.1rem;
+}
+
+#CONTACT {
+    height: 240px;
+}
+
+#CONTACT .east .together {
+    margin-bottom: 20px;
+}
+
+
+#CONTACT .east .together h1 {
+    font-size: 1.7rem;
+}
+
+#CONTACT .east .together p {
+    font-size: 1.3rem;
+}
+
+#CONTACT .east .hi h1 {
+    font-size: 1.7rem;
+}
+
+#CONTACT .west .information{
+    margin: 0px;
+}
+
+#CONTACT .hi ul li a {
+    font-size: 1.3rem;
+}
+
+
